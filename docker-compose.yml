@@ -1,0 +1,11 @@
+version: "3"
+services: 
+    sieci:
+        build: .
+        container_name: sieci
+        networks:
+            - proxy
+        
+networks: 
+    proxy:
+        external: true
