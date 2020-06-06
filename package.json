@@ -1,0 +1,23 @@
+{
+	"name": "sieci",
+	"version": "0.8.0",
+	"description": "sieci",
+	"main": "index.html",
+	"repository": "",
+	"author": "Przemek Dragańczuk",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"dev": "npm-run-all --parallel live watch-sass watch-ts",
+		"live": "live-server --wait=600",
+		"watch-sass": "sass --watch src/scss:dist/css",
+		"watch-ts": "tsc -w",
+		"build": "sass src/scss:dist/css && tsc"
+	},
+	"devDependencies": {
+		"live-server": "^1.2.1",
+		"npm-run-all": "^4.1.5",
+		"sass": "^1.26.8",
+		"typescript": "^3.9.5"
+	}
+}

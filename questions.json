@@ -1,0 +1,93 @@
+[
+    {
+        "q": "Zaznacz 3 sposoby minimalizowania opóźnień",
+        "a": "Kompresja nagłówków pakietów IP"
+    },
+    {
+        "q": "Które z podanych wad i zalet dotyczą WFQ (Weighted Fair Queuing)",
+        "a": "Prosta konfiguracja, lecz nie obsługuje konfiguracji klasyfikacji"
+    },
+    {
+        "q": "Podaj 3 modele QoS",
+        "a": "Best effort, Integrated Services, Differentiated Services"
+    },
+    {
+        "q": "Który zestaw wymagań dotyczący QoS dla aplikacji sieciowych jest prawidłowy?(Wartości posiadają następujące znaczenie 1 - Opóźnienie audio, 2 - Opóźnienie transmisji w jedną stronę, 3 - Szybkość przechodzenia pakietów podczas przeglądania internetu, 4 - Przekazywanie głosu przez komunikator głosowy)",
+        "a": "- 1. <100 ms, 2. 0 - 150 ms, 3. < 2s, 4. ~1s"
+    },
+    {
+        "q":"Które z podanych wad i zalet dotyczą PQ (priority queuing)",
+        "a": "Łatwy w użyciu, kolejki priorytetowe posaidają mniejsze opóźnienia, pozostałe kolejki muszą czekać na zwolnienie łącza"
+    },
+    {
+        "q": "Wybierz 3 kroki implementacji QoS (3 odpowiedzi)",
+        "a": "1. Identyfikacja rodzajów ruchu i ich wymagań; 2. Zdefiniowanie zasad dla każdej klasy ruchu; 3. Podział ruchu na klasy"
+    },
+    {
+        "q": "Jakie są 3 podstawowe kroki związane z wdrażaniem Qos",
+        "a": "Identyfikacja rodzajów ruchu oraz ich wymagania, Podział ruchu na klasy, Zdefiniowanie zasad Qos dla każdej klasy"
+    },
+    {
+        "q": "Które określenia odpowiadają modelowi usług zintegrowanych (3 odpowiedzi)"
+        ,"a": "1. Aplikacje sygnalizują sieci, że wymagają one określonych parametrów QoS; 2.Zapewnia gwarantowane dostarczanie i przewidywalne zachowanie sieci do aplikacji; 3. Każdy router będzie przyjmował i realizował żądania rezerwacji"
+    },
+    {
+        "q": "Jakie są 4 podstawowe sposoby wdrażania zasad QoS w sterownikach Cisco",
+        "a": "CLI, MQC, AutoQoS, SDM"
+    },{
+        "q": "Jakie są korzyści z VoIP",
+        "a": "Wszystkie odpowiedzi są poprawne"
+    },
+    {
+        "q": "Wysoki okres pakowalności VoIP jest efektem: (Zaznacz 2) ","a": "1. Większy rozmiar pakietu IP; 2. Niższy wskaźnik pakietowy"
+    },{
+        "q": "Kiedy należy używać cRTP? (Zaznacz 2)",
+        "a": "1. Tylko na wolnych łączach (mniej niż 2 Mb/s); 2. W przypadku konieczności konserwacji szerokości pasma"
+    }, {
+        "q": "Adresy multicastowe są z zakresu",
+        "a": "od 224.0.0.0 do 239.255.255.255"
+    },{
+        "q": "Zakres pierwszego okręty (oktetu?) klasy A w IPv4 wynosi",
+        "a": "0 - 127"
+    },
+    {
+        "q":"Polecenie ipconfig nie pokazuje",
+        "a":"sieci VLAN"
+    },{
+        "q":"W której klasie liczba możliwych sieci jest równa 16, 384",
+        "a": "B"
+    }, {
+     "q":"1111 1111 w systemie binarnym to... W systemie szesnastkowym",
+     "a": "FF"
+    },{
+        "q": "Jak skonfigurować routnig statyczny używając adresu IPv6?",
+        "a": "ipv6 route 2001:db8:cafe::/48 g0/1 fe80::1"
+    },{
+        "q": "Co oznacza skrót \"CAC\"",
+        "a": "Call Admission Controll"
+    },
+    {
+        "q": "Co opisuje parametr Jitter?",
+        "a": "zmienność opóźnień łącza"
+    },
+    {
+        "q": "Algorytm STP",
+        "a": "przeciwdziała zdarzeniu \"burzy rozgłoszeniowej\""
+    },
+    {
+        "q": "W przypadku gdy pierwszy router pełniący funkcję bramy domyślnej uległ awarii, a w sieci pracuje drugi osiągalny router który mógł by pełnić funkcję bramy domyślnej, to bez użycia protokołu FHR:","a": "Host bezskutecznie będzie próbował skomunikować się z pierwszym routerem"
+    },
+    {
+        "q": "Różnice pomiędzy algorytmami HSRP i GLBP: (2 odpowiedzi)",
+        "a": "1. Algorytmy HSRP i GLBP zapewniają odporność na uszkodzenie routera; 2. Algorytm GLBP zapewnia rónoważenie obciążenia gdy wszystkie routery są osiągalne"
+    },{
+        "q": "Warstwa dystrybucyjna sieci implementuje",
+        "a": "Routing, QoS, Bezpieczeństwo"
+    },{
+        "q": "Wszystkie sieci biznesowe, podczas rozwoju i powiększania się, muszą",
+        "a": "Wszystkie 4 odpowiedzi"
+    },{
+        "q": "Do czego zalecane jest użycie dwuwarstwowego modelu sieci?",
+        "a": "Kiedy przy tworzeniu nie jest potrzebna dodatkowa warstwa dystrybucyjna"
+    }
+]
