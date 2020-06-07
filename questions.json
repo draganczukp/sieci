@@ -89,5 +89,65 @@
     },{
         "q": "Do czego zalecane jest użycie dwuwarstwowego modelu sieci?",
         "a": "Kiedy przy tworzeniu nie jest potrzebna dodatkowa warstwa dystrybucyjna"
+    },{
+        "q": "Który protokół odpowiada za mapowanie adresu IPv4 na adres MAC",
+        "a": "ARP"
+    },{
+        "q": "Jakie korzyści niesie ze sobą stosowanie IPv6 w porównaniu do IPv4",
+        "a": "Brak konieczności stosowania NAT"
+    },{
+        "q": "Który ze sposobów sprawdzania osiągalności danego hosta jest niepoprawny",
+        "a": "traceroute 2001:db8:cafe:4::1 source gigabitethernet0/0"
+    },{
+        "q": "Który z wymienionych protokołów nie używa algorytmu MD5 podczas autentykacji",
+        "a": "OSPF3"
+    },{
+        "q": "Jaka jest wartość zakresu(scope) adresu IPv6, gdy jest on adresem o zasięgu globalnym",
+        "a": "E"
+    },{
+        "q": "Z ilu bitów składają się flagi(flags) w multicastowym adresie IPv6",
+        "a": "4"
+    },{
+        "q": "Który rodzaj kontroli połączeń wykorzystuje call agenta do kierowania połączeń",
+        "a": "Centralized Call Control"
+    },{
+        "q": "Do kluczowych wymagań ruchu sieciowego należą (2 odpowiedzi)",
+        "a": "1. Wydajność; 2. Bezpieczeństwo"
+    },{
+        "q": "EUI-64 jest zdefiniowanym organizację IEEE formatem zapisu",
+        "a": "identyfikatorów "
+    },{
+        "q": "Adresy wykorzystywane tylko do komunikacji w jednym segmencie sieci lokalnej lub przy połączeniu typu point-to-point to",
+        "a": "link-local address"
+    },{
+        "q": "Czy zapis adresu IPv6 można skracać",
+        "a": "tak, można go skrócić przez jednokrotne zastąpienie sekwencji 0 znakiem \"::\" "
+    },{
+        "q": "Do protokołów Spanning Tree nie należy",
+        "a": "PVST-"
+    },{
+        "q": "Kiedy port przełacznika jest konfigurowany opcja PortFast to",
+        "a": "natychmaist przechodzi ze stanu blokowania do stanu przekazwyania"
+    },{
+        "q": "Zadaniem protokołu STP jest zapewnienie tylko jednej logicznej ścieżki pomiędzy sieciami docelowymi",
+        "a": "poprzez zablokowanie nadmiarowych połączeń"
+    },{
+        "q": "Które pola znajdują się w nagłówku IPv6 (wybierz 2)",
+        "a": "1. Hop limit; 2. Traffic Class"
+    },{
+        "q": "Które pola, porównując do IPv4, zostały usunięte w nagłówku IPv6 (wybierz 2)",
+        "a": "1. Header checksum; 2. IHL"
+    },{
+        "q": "Które pole nagłówka IPv4, posiadają swój odpowiednik w nagłówku IPv6 (wybierz 2)",
+        "a": "1. Time to live; 2. Ver."
+    },{
+        "q": "Zaznacz w których scenariuszach zostanie ustanowiony kanał EtherChannel dla protokołu LACP (2 odpowiedzi)",
+        "a": "1. S1: Passive | S2: Active; 2. S1: On | S2: On"
+    },{
+        "q": "Zaznacz w którym scenariuszu zostanie ustanowiony kanał EtherChannel dla protokołu PAgP",
+        "a": "S1: Desirable | S2: Desirable"
+    },{
+        "q": "Zaznacz rzeczywiste zalety EtherChannel",
+        "a": "Równoważy obciążenie wewnątrz jednego kanału"
     }
 ]
