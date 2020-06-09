@@ -149,5 +149,74 @@
     },{
         "q": "Zaznacz rzeczywiste zalety EtherChannel",
         "a": "Równoważy obciążenie wewnątrz jednego kanału"
+    },{
+        "q": "Adresy lokalne dla łącza (link-local address)",
+        "a": "Są odpowiednikami adresów APIPA w IPv4, nie podlegają routingowi, są konfigurowane automatycznie"
+    },{
+        "q": "Link-local address (LLA) zawsze zaczyna się od",
+        "a": "FE80 "
+    },{
+        "q": "Z ilu bitów składa się oznaczenie lokacji w IPv6 dla 48 bitowego prefixa routingu globalneg",
+        "a": "4"
+    },{
+        "q": "ilu bitów składa się oznaczenie budynku w IPv6 dla 32 bitowego prefixa routingu globalnego",
+        "a": "12"
+    },{
+        "q": "Aby uruchomić obsługę IPv6 na urządzeniu trzeba użyć komendy",
+        "a": "ipv6 unicat-routing"
+    },{
+        "q": "Bezstanowa auto-konfiguracja adresu (SLAAC) jest metodą, w której",
+        "a": "urządzenie może uzyskać globalny adres unicast IPv6 bez korzystania z serwera DHCPv6"
+    },{
+        "q": "Jakie jest zastosowanie trybu transportowego",
+        "a": "Dokładanie nagłówka pomiędzy IP, a TCP w celu szyfrowania"
+    },{
+        "q": "Do czego służy pole Next Header",
+        "a": "Do wskazania typu nagłówka dodatkowego lub PDU górnej warstwy"
+    },{
+        "q": "Zaznacz stwierdzenia prawdziwe dla metody SLAAC (2 odpowiedzi)",
+        "a": "1. używa protokołu NDP; 2. używa procesu EUI-64"
+    },{
+        "q": "Jakie są korzyści korzystania z modelu IntServ (2 odpowiedzi)",
+        "a": "1. Kontrola dostępu do zasobów; 2. Kontrola dostępu do zasad na żądanie"
+    },{
+        "q": "Co usprawnia Cisco AutoQoS",
+        "a": "Skraca czas wdrożenia QoS"
+    },{
+        "q": "Jakie jest zastosowanie NAT64? (2 poprawne)",
+        "a": "1. ułatwia komunikację pomiędzy hostami IPv6 i IPv4; 2. tworzy mapowanie pomiędzy adresami IPv4 i IPv6"
+    },{
+        "q": "Czym jest protokół tunelowania",
+        "a": "protokół komunikacyjny, który pozwala na przepływ danych z jednej sieci do innej"
+    },{
+        "q": "Jakie korzyści płyną z korzystania z Dual-Stack Lite? (2 poprawne)",
+        "a": "1. umożliwia hostowi IPv4 komunikowanie się z punktem końcowym NAT za pośrednictwem sieci IPv6; 2. eliminuje problemy z wydajnością i redundancją"
+    },{
+        "q": "Sposoby na zwiększenie efektywności pasma (wybierz 2):",
+        "a": "1. Korzystać z mechanizmów kolejkowania; 2. Stosować kompresje nagłównków pakietów IP"
+    },{
+        "q": "Protokół RTP odpowiada za",
+        "a": "Transmitowanie danych w czasie rzeczywistym"
+    },{
+        "q": "Które informacje są prawdziwe (2 odpowiedzi)",
+        "a": "1. RSVP może korzystać zarówno z portu 3455 TCP, jak i UDP; 2. RSVP żąda parametrów QoS ze wszystkich urządzeń między źródłem a miejscem docelowym"
+    },{
+        "q": "Które ze zdanie charakteryzuje MOS?",
+        "a": "Zapewnia liczbowe wskazanie jakości odbieranych mediów po transmisji"
+    },{
+        "q": "Do czego używany jest procesor DSP",
+        "a": "Wszystkie odpowiedzi są poprawne"
+    },{
+        "q": "Jakie zadania pełni Intelligent Information Network (2 odpowiedzi)",
+        "a": "1. Rozszerza inteligencję pomiędzy wieloma produktami i warstwami infrastruktury; 2. Uczestniczy w dostarczanie serwisów i aplikacji"
+    },{
+        "q": "Jaka jest wymagana przepustowość jednego połączenia w kodowaniu cyfrowego głosu w VoIP",
+        "a": "64 kbps"
+    },{
+        "q": "Które zdanie opisuje wykorzystanie analogowego interfejsu FXS (Foreign Exchange Station) w sieciach VoIP",
+        "a": "Wykorzystywany przez PSTN lub PBX w połączeniach FXS-FXO"
+    },{
+        "q": "Która Architektura oferuje konwergencję usług głosowych, video i danych w ramach jednej sieci komunikacyjnej IP",
+        "a": "WAN"
     }
 ]
