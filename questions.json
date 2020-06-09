@@ -218,5 +218,14 @@
     },{
         "q": "Która Architektura oferuje konwergencję usług głosowych, video i danych w ramach jednej sieci komunikacyjnej IP",
         "a": "WAN"
+    },{
+        "q": "Z jakich warstw składa się trzywarstwowy hierarcihczny model sieci",
+        "a": "Warstwa szkieletowa, warstwa dystrybucji, warstwa dostępu do sieci"
+    },{
+        "q": "Czym jest warstwa dostępu do sieci",
+        "a": "Warstwa ta jest kręgosłupem sieci oraz łączy inne warstwy"
+    },{
+        "q": "Jakie są zasady zapewnienia nadmiarowości. Zaznacz 2 prawidłowe odpowiedzi",
+        "a": "1. Instalowanie powielonych urządzeń; 2. Zapewnienie nadmiarowych ścieżek"
     }
 ]
